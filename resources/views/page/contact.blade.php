@@ -4,6 +4,14 @@
 @section('description','des')
 @section('keywords','keywordsss')
 
+@section('menu')
+    <li class="hasSubMenu"><a href="/">Home</a></li>
+    <li class="hasSubMenu"><a href="{{URL::to('product')}}">Product</a></li>
+    <li class="hasSubMenu"><a href="{{URL::to('support')}}">Support</a></li>
+    <li class="hasSubMenu current-menu-ancestor current_page_ancestor"><a href="{{URL::to('contact')}}">Contact</a></li>
+    <li class="hasSubMenu"><a href="{{URL::to('shortcode')}}">Shortcode</a></li>
+@stop
+
 @section('content')
     <div class="top_wrapper   no-transparent">
 

@@ -109,7 +109,7 @@
 
                         <!-- Logo -->
                         <div id="logo" class="">
-                            <a href='index.html'>
+                            <a href='/'>
                                 <img src="images/2014/09/logo22.png" alt='' />
                                 <img src="images/2014/09/logo-white.png" alt="" class="light" />
                             </a>
@@ -120,14 +120,7 @@
                         <div id="navigation" class="nav_top pull-right ">
                             <nav>
                                 <ul id="menu-menu-1" class="menu themeple_megemenu sub-menu">
-                                    <li class="hasSubMenu current-menu-ancestor current_page_ancestor "><a href="index.html">Home</a></li>
-                                    <li class="hasSubMenu"><a href="#">Headers</a></li>
-                                    <li class="hasSubMenu"><a href="#">Pages</a></li>
-                                    <li class="hasSubMenu"><a href="portfolio_2_cols.html">Portfolio</a></li>
-                                    <li class="hasSubMenu"><a href="headings.html">Shortcodes</a></li>
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li class="hasSubMenu"><a href="blog_fullwidth.html">Blog</a></li>
-                                    <li class="hasSubMenu"><a href="contact.html">Contact Us</a></li>
+                                    @yield('menu')
                                 </ul>
                             </nav>
                         </div>
@@ -145,14 +138,7 @@
         <!-- Responsive Menu -->
         <div class="menu-small">
             <ul class="menu">
-                <li class="hasSubMenu current-menu-ancestor current_page_ancestor"><a href="index.html">Home</a></li>
-                <li class="hasSubMenu"><a href="#">Headers</a></li>
-                <li class="hasSubMenu"><a href="#">Pages</a></li>
-                <li class="hasSubMenu"><a href="portfolio_2_cols.html">Portfolio</a></li>
-                <li class="hasSubMenu"><a href="headings.html">Shortcodes</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li class="hasSubMenu"><a href="blog_fullwidth.html">Blog</a></li>
-                <li class="hasSubMenu"><a href="contact.html">Contact Us</a></li>
+                @yield('menu')
             </ul>
         </div>
         <!-- End Responsive Menu -->

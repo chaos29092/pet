@@ -22,3 +22,15 @@ Route::get('404',function(){
 Route::get('contact',function(){
     return view('page.contact');
 });
+
+Route::get('support',function(){
+    return view('page.support');
+});
+
+Route::get('product',function(){
+    return view('page.product');
+});
+
+Route::get('shortcode',function(){
+    return view('page.shortcode');
+});
